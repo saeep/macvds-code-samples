@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sf2-generator"
+version = "0.1.0"
+description = ""
+authors = ["Aaron Mathew <149572843+aaronwppe@users.noreply.github.com>"]
+readme = ""
+packages = [
+  { include = "sf2_generator" },
+  { include = "sf_utils", from = "submodules" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.13"
+sf-utils = { path = "./submodules/sf_utils" }
+soundfile = ">=0.13.1,<0.14.0"
+numpy = ">=2.2.4,<3.0.0"
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "^1.44.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
