@@ -2,7 +2,7 @@
 name = "sf2-generator"
 version = "0.1.0"
 description = ""
-authors = ["Aaron Mathew <149572843+aaronwppe@users.noreply.github.com>"]
+authors = ["Saee Phadke <123456789+saeephadke@users.noreply.github.com>"]
 readme = ""
 packages = [
   { include = "sf2_generator" },
